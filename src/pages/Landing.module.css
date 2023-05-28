@@ -27,7 +27,7 @@
 }
 
 .vidContainer {
-  @apply sticky flex items-center justify-center h-screen mb-12 overflow-hidden;
+  @apply sticky flex items-center justify-center h-screen  overflow-hidden;
 }
 
 .vid {
@@ -35,8 +35,8 @@
 }
 
 .content{
-    @apply  min-w-full min-h-full max-w-none  bg-neutral-900 
+  @apply  z-50 top-0 sticky min-w-full min-h-screen  max-w-none  bg-red-900 
 }
 .main{
-    @apply absolute  min-w-full min-h-full max-w-none
+  @apply  min-w-full min-h-full max-w-none
 }

@@ -1,0 +1,12 @@
+.footer {
+    @apply bg-slate-100  w-full text-white block pt-6 pb-4;
+}   
+.logo {
+    @apply object-fill  h-20 w-auto mx-auto;
+  }
+.leftFoot {
+    @apply w-1/4 text-black text-sm pl-4 float-left
+}
+.midFoot{
+    @apply w-1/2 bg-red-500 float-left pl-6 text-black
+}

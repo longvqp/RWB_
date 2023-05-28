@@ -1,4 +1,3 @@
-import Tune from "../components/tune/Tune";
 import classes from "./Landing.module.css";
 
 function Landing() {
@@ -29,7 +28,7 @@ function Landing() {
 
       <div className={classes.content}>
           <div className={classes.main}>
-                <Tune></Tune>
+                <p>content</p>
         </div>
       </div>
     </div>
